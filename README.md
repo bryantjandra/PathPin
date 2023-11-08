@@ -1,4 +1,4 @@
-<h1 align="center">🌐 The World Wise 🌐 </h1> 
+<h1 align="center">🌐 PathPin 🌐 </h1> 
 
 <div align="center">
 <img src="https://img.shields.io/npm/v/npm.svg?logo=npm"/>
