@@ -7,7 +7,8 @@
 <img src="https://img.shields.io/badge/leaflet-v1.9.4-green?logo=leaflet"/>
 </div>  
 
-<p align="center"> PathPin allows users to explore cities from around the world. It provides information about various cities, including their locations on a map, details about each city, and the ability to create and delete cities.</p>
+<p align="center"> Built with Vite integration, SPA architecture using React Router, and modular design via React’s advanced compound component patterns.</p>
+<p align="center"> Key features include geolocation-enabled mapping interfaces, comprehensive city details, and a user-friendly UI.</p>
 
 <div align="center">
 
