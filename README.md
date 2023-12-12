@@ -1,23 +1,28 @@
-<h1 align="center">🌐 PathPin 🌐 </h1> 
+# PathPin 
+- An advanced travel-tracking application designed to enable users to effectively log and visualize their travel experiences on a global scale.
+- Developed with a focus on seamless user navigation, the application employs a Single Page Application (SPA) architecture, realized through the integration of React Router with Vite.
 
-<div align="center">
-<img src="https://img.shields.io/npm/v/npm.svg?logo=npm"/>
-<img src="https://img.shields.io/badge/react-v18.2.0-blue?logo=react"/>
-<img src="https://img.shields.io/badge/reactrouterdom-v6.14.2-red?logo=reactrouter"/>
-<img src="https://img.shields.io/badge/leaflet-v1.9.4-green?logo=leaflet"/>
-</div>  
+# Key Highlights
+> **SPA Architecture**: Ensures fluid and uninterrupted user navigation, enhancing the overall user experience.
+> 
+> **Modular React Design**: Adopts React’s compound component patterns, offering a codebase that is both scalable and maintainable.
+> 
+> **State Management Proficiency**: Showcases expertise in React's core functionalities, including adept use of the useReducer hook for managing complex state logic, and the createContext API for effective global data handling across component trees.
+> 
+> **Geolocation-Enabled Mapping Interface**: Features a sophisticated mapping interface with real-time tracking capabilities, providing users with detailed geographical and city information.
+> 
+> **Performance Optimization**: Prioritizes performance and user experience, demonstrating the application’s capability in handling state-of-the-art web technologies.
 
-<p align="center"> Built with Vite integration, SPA architecture using React Router, and modular design via React’s advanced compound component patterns.</p>
-<p align="center"> Key features include geolocation-enabled mapping interfaces, comprehensive city details, and a user-friendly UI.</p>
 
-<div align="center">
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Design & Layout 
+> Homepage
+> ![Screenshot](./public/Homepage.png)
+>
+> Pricing Page
+> ![Screenshot](./public/Pricing.png)
+>
+> App Layout 
+> ![Screenshot](./public/AppLayout.png)
+>
+> App Layout V2
+>  ![Screenshot](./public/AppLayoutV2.png)
