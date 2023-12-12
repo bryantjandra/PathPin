@@ -4,7 +4,7 @@
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
+      "date": "2023-10-31T15:59:59.138Z",
       "notes": "My favorite city so far!",
       "position": {
         "lat": 38.727881642324164,
@@ -16,8 +16,8 @@
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "date": "2022-07-15T08:22:53.976Z",
+      "notes": "Will definitely go back again!",
       "position": {
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
@@ -28,13 +28,85 @@
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
+      "date": "2010-02-12T09:24:11.863Z",
       "notes": "Amazing 😃",
       "position": {
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Puente Nuevo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2015-12-11T16:23:45.692Z",
+      "notes": "Amazing place to visit!",
+      "position": {
+        "lat": "43.35713822211053",
+        "lng": "-7.207031250000001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Arganza",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2017-12-11T16:25:35.764Z",
+      "notes": "The best pizza in Spain is here!",
+      "position": {
+        "lat": "42.68849232550868",
+        "lng": "-6.683807373046876"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Jakarta",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-12T09:06:10.323Z",
+      "notes": "The street food was spectacular. 💯",
+      "position": {
+        "lat": "-6.227933930268672",
+        "lng": "106.89697265625001"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Jakarta",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-12T09:06:10.323Z",
+      "notes": "The street food was spectacular. 💯",
+      "position": {
+        "lat": "-6.227933930268672",
+        "lng": "106.89697265625001"
+      },
+      "id": 98443218
+    },
+    {
+      "cityName": "Jakarta",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-12T09:06:10.323Z",
+      "notes": "The street food was spectacular. 💯",
+      "position": {
+        "lat": "-6.227933930268672",
+        "lng": "106.89697265625001"
+      },
+      "id": 98443219
+    },
+    {
+      "cityName": "Jakarta",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-12T09:06:10.323Z",
+      "notes": "The street food was spectacular. 💯",
+      "position": {
+        "lat": "-6.227933930268672",
+        "lng": "106.89697265625001"
+      },
+      "id": 98443220
     }
   ]
 }

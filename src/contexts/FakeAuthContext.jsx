@@ -6,27 +6,21 @@ const initialState = {
   user: null,
   isAuthenticated: false,
 };
+
 function reducer(state, action) {
   switch (action.type) {
     case "login":
-      return {
-        ...state,
-        user: action.payload,
-        isAuthenticated: true,
-      };
+      return { ...state, user: action.payload, isAuthenticated: true };
     case "logout":
-      return {
-        ...state,
-        user: null,
-        isAuthenticated: false,
-      };
+      return { ...state, user: null, isAuthenticated: false };
     default:
-      throw new Error("Unknown Action");
+      throw new Error("Unknown action");
   }
 }
+
 const FAKE_USER = {
-  name: "Bryan",
-  email: "bryan@example.com",
+  name: "Jack",
+  email: "jack@example.com",
   password: "qwerty",
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
@@ -41,9 +35,11 @@ function AuthProvider({ children }) {
     if (email === FAKE_USER.email && password === FAKE_USER.password)
       dispatch({ type: "login", payload: FAKE_USER });
   }
+
   function logout() {
     dispatch({ type: "logout" });
   }
+
   return (
     <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
@@ -54,7 +50,7 @@ function AuthProvider({ children }) {
 function useAuth() {
   const context = useContext(AuthContext);
   if (context === undefined)
-    throw new Error("Context was used outside AuthProvider");
+    throw new Error("AuthContext was used outside AuthProvider");
   return context;
 }
 

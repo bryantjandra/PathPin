@@ -12,7 +12,7 @@ export default function Sidebar() {
       <Outlet />
       <footer className={styles.footer}>
         <p className={styles.copyright}>
-          &copy; Copyright{new Date().getFullYear()} by WorldWise Inc.
+          &copy; Copyright {new Date().getFullYear()} by PathPin Inc.
         </p>
       </footer>
     </div>
